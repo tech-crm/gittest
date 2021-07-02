@@ -1,0 +1,7 @@
+git config --global user.name "nikweel"
+git config --global user.email "support@tech-crm.ru"
+git config --list
+git add .
+git commit -m "Это первы коммит"
+git remote add origin https://github.com/tech-crm/gittest.git
+git push -u origin master
